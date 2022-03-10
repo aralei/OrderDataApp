@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="common.css"> 
+    <title>OrderData</title>
+</head>
+<body>
+    <h2>受注データテーブル</h2>
+    <table id='order-table'></table>
+    <div id = "data">
+        <form id = "order">    
+            <br><br>
+            商品名: <input id = "goodsName" name = "goodsName" type = "text" required>
+            <br><br>
+            受注日: <input id = "orderDate" name = "orderDate" type = "date" required>
+            <br><br>
+            金額: <input id = "money" name = "money" type = "number" required>
+            <br><br>
+            <input id = "button1" type = "reset" value = "リセット">
+            <input id = "button2" type = "button" value = "追加" onclick="addData()">
+        </form>
+    </div>
+    <script src="common.js" charset="utf-8"></script>
+</body>
+</html>
