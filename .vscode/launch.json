@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open Index.html",
-            "file": "c:\\Users\\sun tianshu\\Desktop\\GitFile\\OrderDataApp\\Index.html"
+            "file": "..Index.html"
         }
     ]
 }
